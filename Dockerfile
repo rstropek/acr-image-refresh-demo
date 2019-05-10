@@ -1,3 +1,3 @@
-FROM icc19reg.azurecr.io/tiny-web:latest
+FROM nginx:alpine
 COPY *.html /usr/share/nginx/html/
 
